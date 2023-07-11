@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test jest -i",
-    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
+    "dev": "NODE_ENV=3333 ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
+    "prod": "NODE_ENV=3335 ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "migration:create": "ts-node-dev node_modules/typeorm/cli.js migration:create -n",
     "migration:generate": "ts-node-dev node_modules/typeorm/cli.js migration:generate -n",
     "migration:run": "ts-node-dev node_modules/typeorm/cli.js migration:run"
