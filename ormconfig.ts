@@ -1,4 +1,4 @@
-{
+export = {
     "type": "sqlite",
     "database": "./src/database/database.sqlite",
     "migrations": ["./src/database/migrations/**.ts"],
