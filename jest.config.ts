@@ -10,7 +10,10 @@ export default {
   // Stop running tests after `n` failures
   bail: true,
 
-  testResultsProcessor: "jest-junit",
+  reporters: [
+    "default",
+    ["jest-junit", { outputDirectory: "./src/__tests__/results" }]
+  ],
 
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "/tmp/jest_rs",
