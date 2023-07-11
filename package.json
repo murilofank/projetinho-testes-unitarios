@@ -9,7 +9,7 @@
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
   "keywords": [],
-  "author": "Fáiza Letícia Schoeninger",
+  "author": "Murilo Fank",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
@@ -17,7 +17,7 @@
     "handlebars": "^4.7.7",
     "nodemailer": "^6.5.0",
     "reflect-metadata": "^0.1.13",
-    "sqlite3": "^5.0.2",
+    "sqlite3": "^5.1.6",
     "typeorm": "^0.2.31",
     "uuid": "^8.3.2",
     "yup": "^0.32.9"
